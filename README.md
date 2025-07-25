@@ -1,7 +1,7 @@
 # Electronics-Internship
 Learning-by-building: My ongoing journey through Arduino-based electronics, as part of a university Summer Internship
 
-# 🌟 Smart Room Lighting System
+# 🌟 Mini-Project: Smart Room Lighting System
 
 ## 📌 Objective
 
@@ -57,4 +57,29 @@ To design and implement an Arduino-based **smart lighting system** that:
 | Reactivation  | Press button         | Resumes last state and reactivates LED control                            |
 
 ---
+## ✅ **Conclusion**
+
+This project successfully implements a **smart lighting system** that is:
+
+- Energy-efficient (with timeout),
+- Reliable (debounced input),
+- Adaptive (ambient light response),
+- User-friendly (manual override).
+
+It demonstrates practical use of:
+
+- **Analog sensors (LDR)**
+- **PWM control**
+- **Debounce software**
+- **Timer-based state handling**
+
+---
+
+## 📃References
+
+**[1]** Arduino Documentation, "millis() – Time," *Arduino*, [Online]. Available: https://docs.arduino.cc/language-reference/en/functions/time/millis/. [Accessed: Jul. 24, 2025].
+
+**[2]** Arduino Documentation, "Debounce – Built-in Examples," *Arduino*, [Online]. Available: https://docs.arduino.cc/built-in-examples/digital/Debounce/. [Accessed: Jul. 24, 2025].
+
+**[3]** Pico Technology, "What is switch bounce and how to implement debounce," *Pico Technology Blog*, [Online]. Available: https://www.picotech.com/library/articles/blog/what-is-switch-bounce-how-to-implement-debounce. [Accessed: Jul. 24, 2025].
 
